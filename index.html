@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Loja de Bebidas</title>
+</head>
+<body>
+     <header>
+        <h1>Sua Loja de Bebidas Online, Sempre ao Seu Alcance.</h1>
+        <p>Faça pedidos rápidos e descubra novos sabores a cada clique, com entrega em todo o país.</p>
+     </header>
+    <div class="container">
+        <h2>Validação de Idade</h2>
+        <p>Confirme que você possui mais de 18 anos para acessar nossa loja.</p>
+        <input type="number" name=" " id="idadeInput" placeholder="insira sua idade">
+        <button onclick="verificarIdade()">Verificar</button>
+    </div>
+
+    <script>
+        function verificarIdade(){
+            const idade =parseInt( document.getElementById("idadeInput").value);
+
+            if (idade >= 18) {
+                window.location.href = "permitido.html";
+        }
+
+        else {
+            window.location.href = "npermitido.html";
+        }
+    }
+    </script>
+
+<footer>
+    &copy;Sua Loja de Bebidas Online, Sempre ao Seu Alcance. Todos os Direitos Reservados.
+</footer>
+
+
+</body>
+</html>

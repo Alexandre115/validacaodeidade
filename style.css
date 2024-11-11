@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/13/04/alcoholic-beverages-1845295_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 20px;
+}
+
+header p{
+    color: beige;
+    font-family: "Pacifico", cursive;
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    color: gold;
+    text-decoration: underline;
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px black;
+}
+
+.container{
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 800px;
+    border-radius: 10px;
+    transition-duration: 2s ease-in-out;
+}
+
+.container h2{
+    font-family: "Pacifico", cursive;
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.container p{
+    color: beige;
+    font-family: "Pacifico", cursive;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.container button{
+    /* text-shadow: 1px 1px 1px black; */
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    padding: 4px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid gold;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100%-25px); 
+}
+
+footer{
+
+    color: #3a3a3a;
+    font-family: "Pacifico", cursive;
+    margin-top: 150px;
+    text-align: center;
+    /* background-color: #0e0bb9; */
+    letter-spacing: 2px;
+    /* opacity: 0.8; */
+    transition-duration: 2s ease-in-out;
+}
+
+footer:hover{
+    transform: translateY(-3px);
+    transition-duration: 1s;
+}
+
+.container:hover{
+    transform: translateY(-3px);
+    transition-duration: 1s;
+}
